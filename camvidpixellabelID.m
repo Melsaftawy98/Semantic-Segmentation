@@ -2,7 +2,7 @@ function labelIDs = camvidPixelLabelIDs()
 % Return the label IDs corresponding to each class.
 %
 % The CamVid dataset has 32 classes. Group them into 11 classes following
-% the original SegNet training methodology [1].
+% the original SegNet training methodology.
 %
 % The 11 classes are:
 %   "Sky" "Building", "Pole", "Road", "Pavement", "Tree", "SignSymbol",
